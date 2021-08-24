@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Shwe - Portfolio </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./img/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">
+  <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+<body>
+  <header class="page-header">
+    <img class="page-header__item" src="./img/logo.svg" alt="logo">
+    <nav class="main-navigation page-header__item">
+      <ul class="navigation-list" role="menubar"> <!--Aria attribute role used for the screen reader to recognize-->
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class= "profile">
+  <h1> Contact </h1>
+
+  <form action="" method="post">
+    <label for="my_email">E-mail: </label>
+    <input id="my_email" type="email" required><br>
+
+    <label for="my_tel">Telephone: </label>
+    <input id="my_tel" type="tel"><br>
+
+    <label for="msg">Message: </label>
+    <textarea id="msg" maxlength="240" required></textarea><br><br>
+
+    <input type="submit" value="Send message">
+  </form>
+  <br>
+  <a href="mailto:hegdes101@gmail.com">Contact me</a>
+
+  <!--contact section, hyperlinks for phone , mail and skype-->
+  <div>
+    <p>
+      Shwe Hegde<br>
+      Apt 123<br>
+      10179 Redmond<br>
+      WA<br>
+      Telephone: <a role="presentation" href="tel:4255886863">425-588-6863</a><br>
+      <!--Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a><br>-->
+      Email: <a href="mailto:hegdes101@gmail.com">hegdes101@gmail.com</a>
+    </p>
+  </div>
+</div>
+  <footer class="page__footer">
+    <p>Find me on</p>
+    <div class="social_media">
+      <!-- Github logo -->
+      <img width="30px" height="30px" src="img/github.svg" alt="github">
+      <!-- Twitter logo -->
+      <img width="30px" height="30px" src="img/twitter.svg" alt="twitter">
+      <!-- LinkedIn logo -->
+      <img width="30px" height="30px" src="img/linkedin.svg" alt="linkedin">
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
